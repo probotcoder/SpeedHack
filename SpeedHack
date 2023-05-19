@@ -1,0 +1,5 @@
+local button = script.Parent.lotsofhack
+
+button.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 22
+end)
